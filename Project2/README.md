@@ -38,11 +38,11 @@
 <br/>
 
 * Train Data
-  * Season7, Ep4~16
-  * Season9, Ep1~9
+  * Season7, Ep4\~16
+  * Season9, Ep1\~9
 * Validation Data
-  * Season7, Ep1~3
-  * Season9, Ep10~12, 14~16
+  * Season7, Ep1\~3
+  * Season9, Ep10\~12, 14\~16
 * Test Data
   * Google Image (Crop하지 않은 고화질 이미지)
 
