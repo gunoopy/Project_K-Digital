@@ -1,0 +1,210 @@
+#headlines .headline-content {
+    opacity: 1;
+}
+.headline-content.invisible {
+    animation: opacityInvisible ease;
+    animation-fill-mode: forwards;
+    animation-duration: 0.4s;
+}
+.headline-content.visible {
+    animation: opacity ease;
+    animation-fill-mode: forwards;
+    animation-duration: 0.4s;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes opacityInvisible {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    /*Step0*/
+
+    /*Step1*/
+
+    .animating1 #animation1Container {
+        animation: goUpSlogan ease;
+        animation-fill-mode: forwards;
+        animation-duration: 1.0s;
+    }
+
+    /*Step2*/
+
+    .animation #animation2Item1 {
+        opacity: 0;
+        position: relative;
+        top: 30px;
+    }
+
+    .animation #animation2Item2 {
+        opacity: 0;
+        position: relative;
+        top: 30px;
+    }
+
+    .animation #animation2Item3 {
+        opacity: 0;
+        position: relative;
+        top: 30px;
+    }
+
+    .animating2 #animation2Item1 {
+        animation: goTop ease, opacity ease;
+        animation-fill-mode: forwards;
+        animation-duration: 0.3s;
+        animation-delay: 0.3s;
+    }
+
+    .animating2 #animation2Item2 {
+        animation: goTop ease, opacity ease;
+        animation-fill-mode: forwards;
+        animation-duration: 0.3s;
+        animation-delay: 0.6s;
+    }
+
+    .animating2 #animation2Item3 {
+        animation: goTop ease, opacity ease;
+        animation-fill-mode: forwards;
+        animation-duration: 0.3s;
+        animation-delay: 0.9s;
+    }
+
+    /*Step3*/
+
+    .animation #animation3Title {
+        opacity: 0;
+    }
+
+    .animation #animation3Photo {
+        opacity: 0;
+    }
+
+    .animation .animation3Description {
+        opacity: 0;
+    }
+
+    .animating3 #animation3Title {
+        animation: opacity ease;
+        animation-fill-mode: forwards;
+        animation-duration: 0.3s;
+        animation-delay: 0.3s;
+    }
+
+    .animating3 #animation3Photo {
+        animation: opacity ease;
+        animation-fill-mode: forwards;
+        animation-duration: 0.3s;
+        animation-delay: 0.7s;
+    }
+
+    .animating3 .animation3Description {
+        animation: opacity ease;
+        animation-fill-mode: forwards;
+        animation-duration: 0.6s;
+    }
+
+    /*Step4*/
+
+    .animation #animation4Title {
+        opacity: 0;
+    }
+
+    .animation #animation4Text {
+        opacity: 0;
+    }
+
+    .animation #animation4Description {
+        opacity: 0;
+    }
+
+    .animating4 #animation4Title {
+        animation: opacity ease;
+        animation-fill-mode: forwards;
+        animation-duration: 0.3s;
+    }
+
+    .animating4 #animation4Text {
+        animation: opacity ease;
+        animation-fill-mode: forwards;
+        animation-duration: 0.3s;
+        animation-delay: 0.3s;
+    }
+
+    .animating4 #animation4Description {
+        animation: opacity ease;
+        animation-fill-mode: forwards;
+        animation-duration: 0.3s;
+        animation-delay: 0.4s;
+    }
+
+    @keyframes goTop {
+        to {
+            top: 0;
+        }
+    }
+
+    @keyframes goBottom {
+        to {
+            bottom: 0;
+        }
+    }
+
+    @keyframes goLeft {
+        to {
+            left: 0;
+        }
+    }
+
+    @keyframes goRight {
+        to {
+            right: 0;
+        }
+    }
+
+    @keyframes goUpSlogan {
+        from {
+            top: 27px;
+        }
+        to {
+            top: -43px;
+        }
+    }
+
+    @keyframes line2 {
+        to {
+            width: 563px;
+        }
+    }
+
+    @keyframes line3 {
+        to {
+            width: 100px;
+        }
+    }
+
+    @keyframes line4 {
+        to {
+            width: 71px;
+        }
+    }
+
+    @keyframes line5 {
+        to {
+            width: 200px;
+        }
+    }
+
+}

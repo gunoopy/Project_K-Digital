@@ -1,0 +1,64 @@
+*{
+  box-sizing : border-box;
+}
+html{
+  position : relative;
+  min-height : 100%;
+}
+body{
+  margin-bottom : 0px;
+  margin : 0;
+  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+}
+
+.container{
+  width : 100%;
+  max-width : 100%;
+  min-width : 320px;
+  padding : 0;
+  margin : 0;
+}
+.container .content{
+  width : auto;
+  max-width : 100%;
+  padding : 0;
+  margin : 0;
+  text-align : center;
+}
+
+img{
+  width : 100%;
+  max-width : 720px;
+  padding : 0;
+  margin : 0 auto;
+  display: block;
+}
+
+
+
+#apply_button{
+  position : fixed;
+  background-color : #007bff;
+  color : white;
+  padding : 20px;
+  margin : 0;
+  cursor : pointer;
+  top : 80%;
+  right : 5%;
+  border-radius: 22px;
+  box-shadow: 2px 2px 5px gray;
+
+}
+
+
+@media screen and (max-width : 900px){
+  #apply_button{
+    left : 0;
+    right : 0;
+    top : 94%;
+    bottom : 0;
+    border-radius : 0;
+    box-shadow: 0 0 0;
+
+  }
+}

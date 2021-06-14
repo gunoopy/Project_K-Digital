@@ -1,0 +1,488 @@
+@media screen and (max-width: 1280px) {
+  .desktop, .desktop_block {
+    display: none;
+    visibility: collapse;
+    width: 0 !important;
+    height: 0 !important;
+  }
+  .tablet {
+    display: inline-block;
+  }
+  .tablet_block {
+    display: block;
+  }
+  .mobile, .mobile_block {
+    display: none;
+  }
+  .tablet_mobile {
+    display: inline-block;
+  }
+  .tablet_mobile_block {
+    display: block;
+  }
+  .content_wrapper {
+    margin: 0 auto;
+    width: 767px;
+    clear: both;
+  }
+  .menu {
+    height: 80px;
+    background-color: #ffffffff;
+    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1071;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    visibility: visible;
+  }
+  .menu .menu_item {
+    margin-left: 40px;
+  }
+
+  .intro .intro_headline {
+    height: 860px;
+    text-align: left;
+  }
+  
+  .intro .intro_slogan {
+    height: 498px;
+  }
+    .intro .intro_slogan .container {
+      top: -43px;
+      left: calc((100% - 707px)/2);
+      width: 707px;
+    }
+    .intro .intro_slogan .container .line {
+      left: 72px;
+    }
+    .intro .intro_slogan .container .text {
+      top: 64px;
+      left: 70px;
+    }
+    .intro .intro_slogan .container .slogan {
+      right: 64px;
+      bottom: 50px;
+      padding: 11px 12px;
+      font-size: 15px;
+      line-height: 28px;
+      letter-spacing: -0.33px;
+      color: #ffffff;
+      height: 50px;
+    }
+    
+  .description {
+    height: auto;
+  }
+    .description .photo.desktop {
+      padding-top: 0px;
+    }
+    .description .description {
+      display: inline-block;
+      width: 100%;
+      height: auto;
+      margin-left: 0px;
+      padding-left: 30px;
+      padding-right: 30px;
+      vertical-align: top;
+      padding-top: 102px;
+    }
+      .description .description .title {
+        width: 100%;
+        height: 54px;
+        font-size: 36px;
+        text-align: center;
+      }
+      .description .description .text {
+        width: 100%;
+        height: 96px;
+        font-size: 16px;
+        line-height: normal;
+        letter-spacing: -0.4px;
+        color: #4B5064;
+        margin-top: 30px;
+        text-align: center;
+        word-break: keep-all;
+      }
+      .description .description .text span.strong {
+        font-weight: bold;
+      }
+      .description .photo {
+        display: inline-block !important;
+        width: 707px;
+        height: 404px;
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-top: 50px;
+      }
+      .description .features {
+        width: 767px;
+        height: 518px;
+        padding-left: 28px;
+      }
+      .description .features .item {
+        display: inline;
+        float: left;
+        width: 242px;
+        height: 160px;
+        margin-top: 130px;
+        margin-left: 6px;
+        box-sizing: border-box;
+      }
+      .description .features .item:first-child {
+        margin-left: 0;
+      }
+      .description .features .item img {
+        width: 220px;
+        height: 114px;
+        display: block;
+      }
+      .description .features .item .title {
+        width: 220px;
+        height: 41px;
+        margin-top: 32px;
+        font-size: 28px;
+        line-height: 1.63;
+        letter-spacing: -0.88px;
+      }
+      .description .features .item .text {
+        width: 227px;
+        height: 194px;
+        padding-top: 14px;
+        font-size: 16px;
+        line-height: 1.63;
+        letter-spacing: -0.5px
+      }
+  .service_headline {
+    height: auto;
+  }
+  .service_headline .content_wrapper {
+    margin: 0 auto;
+    height: auto;
+    clear: both;
+  }
+    .service_headline .head {
+      margin-left: 0px;
+      padding-top: 0px;
+      clear: both;
+    }
+      .service_headline .head .title {
+        height: 54px;
+        text-align: center;
+        font-size: 36px;
+        letter-spacing: -1px;
+        color: #19254D;
+      }
+      .service_headline .head .description {
+        height: 48px;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: -0.4px;
+      }
+      .service_headline .services {
+        margin: 0 auto;
+      }
+      .service_headline .services .photos {
+        position: absolute;
+        width: 100%;
+        height: 320px;
+        margin-top: 30px;
+        margin-left: 0px;
+        top: 0px;
+        left: 0px;
+        display: block;
+        z-index: 0;
+      }
+      .service_headline .services .photos .photo img {
+        max-width: 767px;
+        max-height: 320px;
+        width: auto;
+        height: auto;
+      }
+      .service_headline .services .selector {
+        height: 54px;
+        margin-top: 10px;
+        box-sizing: border-box;
+        text-align: center;
+      }
+      .service_headline .services .selector .item {
+        padding-bottom: 8px;
+        position: relative;
+        bottom: -1px !important;
+      }
+      .service_headline .services .selector .item .text {
+        font-size: 16px;
+        letter-spacing: -0.5px;
+      }
+      .service_headline .services .content {
+        overflow: hidden;
+        height: 320px;
+        margin-left: 0px;
+        display: flex;
+      }
+      .service_headline .services .content .description {
+        margin: 0 auto;
+        margin-top: 330px;
+        width: 711px;
+        height: 239px;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: -0.6px;
+        color: #5f5f65;
+      }
+      .service_headline .services .content .arrow {
+        margin-top: 108px;
+        padding-left: 0px;
+        cursor: pointer;
+        z-index: 1;
+      }
+      .service_headline .services .content .arrow.left {
+        width: 44px;
+        height: 44px;
+        cursor: pointer;
+        z-index: 1;
+      }
+      .service_headline .services .content .arrow.left img {
+        width: 44px;
+        height: 44px;
+      }
+      .service_headline .services .content .arrow.right {
+        position: absolute;
+        right: 0px;
+        width: 44px;
+        height: 44px;
+        cursor: pointer;
+        z-index: 1;
+      }
+      .service_headline .services .content .arrow.right img {
+        width: 44px;
+        height: 44px;
+      }
+      .service_headline .services .description {
+        margin: 0 auto;
+        margin-top: 37px;
+        margin-bottom: 100px;
+        display: block;
+        height: 194px;
+      }
+      .service_headline .services .description .photo-flick {
+        display: none;
+      }
+      .service_headline .services .description .photo-flick.selected {
+        display: inline-block;
+      }
+      .service_headline .services .description .title {
+        width: 100%;
+        height: 36px;
+        font-weight: bold; 
+        font-size: 24px;
+        letter-spacing: -0.3px;
+        color: #101a3d;
+        text-align: center;
+      }
+      .service_headline .services .description .new {
+        margin-left: 10px;
+        width: 40px;
+        height: 20px;
+      }
+      .service_headline .services .description .subtitle {
+        width: 767px;
+        margin-top: 15px;
+        height: auto;
+        font-size: 15px;
+        line-height: 26px;
+        letter-spacing: -0.47px;
+        color: #4b5064;
+        text-align: center;
+      }
+
+  .standard {
+    padding-top: 80px;
+    height: 460px;
+    position: relative;
+    background-color: white;
+  }
+    .standard h1 {
+      font-weight: normal;
+      font-size: 26px;
+      line-height: 1.7;
+      letter-spacing: -1.04px;
+    }
+    .standard .description {
+      margin-top: 20px;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 26px;
+      letter-spacing: -0.47px;
+      color: #4b5064
+    }
+    .standard .slogan {
+      position: absolute;
+      width: 100%;
+      height: 280px;
+      top: 180px;
+      left: 0;
+      background-image: url("/static/images/bg_slogan_illust_tablet.png");
+      background-position: center center;
+    }
+  .howtouse {
+    height: 614px;
+  }
+    .howtouse .demo {
+      display: inline-block;
+      margin-left: 28px;
+      margin-top: 70px;
+    }
+      .howtouse .demo .screenshot {
+        display: inline-block;
+        overflow: hidden;
+        vertical-align: top;
+        margin-left: -26px;
+        width: 280px;
+        height: 462px;
+      }
+      .howtouse .demo .screenshot .frame {
+        width: 100%;
+      }
+      .howtouse .demo .screenshot .screens {
+        position: relative;
+        top: -462px;
+        width: 178px;
+        height: 385px;
+        margin-top: 6px;
+        margin-left: 51px;
+        border-radius: 18px;
+        overflow: hidden;
+        vertical-align: top;
+        display: inline-block;
+      }
+      .howtouse .demo .screenshot .screens .screen {
+        width: 178px;
+        height: 385px;
+      }
+      .howtouse .demo .arrow {
+        margin-top: 160px;
+      }
+      .howtouse .demo .arrow.left {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 0px;
+        width: 60px;
+        height: 60px;
+      }
+      .howtouse .demo .arrow.left img {
+        width: 100%;
+      }
+      .howtouse .demo .arrow.right {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: -27px;
+        margin-right: 0px;
+        width: 60px;
+        height: 60px;
+      }
+      .howtouse .demo .arrow.right img {
+        width: 100%;
+      }
+      .howtouse .demo .indicator {
+        bottom: 10px;
+      }
+
+    .howtouse .content {
+      display: inline-block;
+      vertical-align: top;
+      width: 319px;
+      margin-top: 180px;
+      margin-left: 31px;
+    }
+      .howtouse .content .title {
+        width: 318px;
+        height: 54px;
+        font-size: 26px;
+        letter-spacing: -0.72px;
+        color: #ffffff;
+      }
+      .howtouse .content .line {
+        width: 71px;
+        height: 1px;
+        background-color: #ffffff;
+        margin-top: 105px;
+        margin-bottom: 50px;
+      }
+      .howtouse .content .func_title {
+        width: 315px;
+        height: 33px;
+        margin-top: 80px;
+        margin-bottom: 8px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #e6e9ef;
+      }
+      .howtouse .content .func_description {
+        width: 315px;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -0.64px;
+        color: #c0c8d9;
+      }
+
+  .links {
+    padding-top: 50px;
+  }
+    .links .container {
+      display: block;
+    }
+    .links .market {
+      display: block;
+      margin-top: 6px;
+    }
+    .links .market:first-child {
+      margin-top: 25px;
+    }
+    .links .driver .container {
+      margin-top: 25px;
+    }
+    .links .driver .container .white-buttons {
+      margin-left: 0px;
+    }
+    .links .separator {
+      width: 768px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  .copyright {
+    padding-bottom: 105px;
+  }
+  .copyright .tablet_mobile {
+    display: block;
+  }
+  .copyright .desktop {
+    display: none;
+  }
+  .copyright .term-social {
+    display: flex;
+  }
+
+  .footer {
+    z-index: 2001;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 56px;
+    background-color: #32a2fa;
+  }
+  .footer .text {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: 56px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+  }
+}
