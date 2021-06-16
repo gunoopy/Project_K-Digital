@@ -16,8 +16,6 @@
 
 <br/>
 
-<br/>
-
 #### Data
 
 * `20 classes`, `35,806 images`
@@ -59,4 +57,7 @@
 * Validation
   * Loss : 0.0265
   * Accuracy : **0.9912**
+* Test
+  * Loss : 
+  * Accuracy : 0.96
 
